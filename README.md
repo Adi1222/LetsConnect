@@ -14,7 +14,7 @@ new events. The app users can post content in image format.
 ## A Few Screenshots:
 
 ### 1. Login Page
-<img src="Screenshots/LoginPage.jpeg" >
+<img src="Screenshots/LoginPage.jpeg" width="200" height="400">
 
 ### 2. Signup Page
 ![](Screenshots/SignupPage.jpeg)
