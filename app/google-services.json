@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "153409976741",
+    "firebase_url": "https://letsconnect-84356.firebaseio.com",
+    "project_id": "letsconnect-84356",
+    "storage_bucket": "letsconnect-84356.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153409976741:android:67ba5edad9484ae85cd04c",
+        "android_client_info": {
+          "package_name": "com.example.letsconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153409976741-vvukr9jk0l62bifed7icte4jjaavpaa5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDiSrHTYOSLWdp4B2v-q5vlOrhQyOKzBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153409976741-vvukr9jk0l62bifed7icte4jjaavpaa5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153409976741:android:7e4bee1e4233b5345cd04c",
+        "android_client_info": {
+          "package_name": "com.example.letsconnectfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153409976741-vvukr9jk0l62bifed7icte4jjaavpaa5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDiSrHTYOSLWdp4B2v-q5vlOrhQyOKzBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153409976741-vvukr9jk0l62bifed7icte4jjaavpaa5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

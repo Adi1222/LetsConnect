@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LetsConnectFinal</string>
+    <array name="options">
+        <item>User</item>
+        <item>Admin</item>
+    </array>
+</resources>

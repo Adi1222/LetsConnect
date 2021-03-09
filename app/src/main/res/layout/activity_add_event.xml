@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".addEvent">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/main_toolbar"/>
+
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white">
+
+        <include
+            layout="@layout/main_nav_drawrer"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp">
+
+        <RelativeLayout
+            android:elevation="36dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="@drawable/card_background">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:text="Add New Event"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="48dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerVertical="true">
+                <EditText
+                    android:id="@+id/title"
+                    android:textColorHint="@color/colorPlaceholder"
+                    android:drawableTint="@color/black"
+                    android:hint="Event Title"
+                    android:textColor="@color/black"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:inputType="textPersonName"
+                    android:fontFamily="@font/seg_ui_semibold"
+                    android:background="@drawable/edit_text_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginRight="48dp" />
+
+                <EditText
+                    android:id="@+id/event_date"
+                    android:textColorHint="@color/colorPlaceholder"
+                    android:layout_marginTop="24dp"
+                    android:drawableTint="@color/black"
+                    android:hint="Event Date"
+                    android:inputType="date"
+                    android:textColor="@color/black"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:fontFamily="@font/seg_ui_semibold"
+                    android:background="@drawable/edit_text_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginRight="48dp"/>
+                <EditText
+                    android:id="@+id/location"
+                    android:textColorHint="@color/colorPlaceholder"
+                    android:layout_marginTop="24dp"
+                    android:drawableTint="@color/black"
+                    android:textColor="@color/black"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:hint="Add Location"
+                    android:inputType="textShortMessage|textLongMessage|text"
+                    android:fontFamily="@font/seg_ui_semibold"
+                    android:background="@drawable/edit_text_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginRight="48dp"/>
+                <EditText
+                    android:id="@+id/link"
+                    android:textColorHint="@color/colorPlaceholder"
+                    android:layout_marginTop="24dp"
+                    android:drawableTint="@color/black"
+                    android:hint="Event Link (if any)"
+                    android:textColor="@color/black"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:inputType="textPersonName"
+                    android:fontFamily="@font/seg_ui_semibold"
+                    android:background="@drawable/edit_text_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginRight="48dp"/>
+                <EditText
+                    android:id="@+id/description"
+                    android:textColorHint="@color/colorPlaceholder"
+                    android:layout_marginTop="24dp"
+                    android:drawableTint="@color/black"
+                    android:hint="Description (optional)"
+                    android:textColor="@color/black"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:inputType="textMultiLine"
+                    android:fontFamily="@font/seg_ui_semibold"
+                    android:background="@drawable/edit_text_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginRight="48dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginRight="20dp">
+
+                    <Button
+                        android:id="@+id/addEventBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="52dp"
+                        android:layout_weight="1"
+                        android:text="Add Event"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorButtonText"
+                        android:textSize="16dp"
+                        android:fontFamily="@font/seg_ui_semibold"
+                        android:background="@drawable/bg"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

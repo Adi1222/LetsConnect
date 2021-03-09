@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/drawer_layout"
+    tools:context=".showEvent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/main_toolbar"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Events"
+                android:textColor="#5E5E5E"
+                android:textSize="24dp" />
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="6dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/bg_view">
+
+            </View>
+
+        </LinearLayout>
+        <TextView
+            android:paddingTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:text="keeping you up with your network"
+            android:textColor="#5E5E5E"
+            android:textSize="18dp"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:paddingTop="40dp"
+            android:id="@+id/eventRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="MissingConstraints" />
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white">
+
+        <include
+            layout="@layout/main_nav_drawrer"/>
+
+
+
+    </RelativeLayout>
+
+
+
+    <!--<androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/eventRecycler"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />-->
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
