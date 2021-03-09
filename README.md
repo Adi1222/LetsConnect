@@ -14,7 +14,9 @@ new events. The app users can post content in image format.
 ## A Few Screenshots:
 
 ### 1. Login Page
-<img align="center" src="Screenshots/LoginPage.jpeg" width="300" height="400">
+<p align="center">
+<img src="Screenshots/LoginPage.jpeg" width="300" height="400">
+</p>
 
 ### 2. Signup Page
 <img src="Screenshots/SignupPage.jpeg" width="300" height="400">
