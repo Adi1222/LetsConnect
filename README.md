@@ -9,3 +9,12 @@ sessions (past and upcoming) and can attend them if they wish to. The Admin of
 the app will be responsible for adding new domains, authenticating the users, 
 managing the database, verify the contents posted by users of the app and create 
 new events. The app users can post content in image format.
+
+
+## A Few Screenshots:
+
+### 1. Login Page
+<img src="Screenshots/LoginPage.jpeg" >
+
+### 2. Signup Page
+![](Screenshots/SignupPage.jpeg)
